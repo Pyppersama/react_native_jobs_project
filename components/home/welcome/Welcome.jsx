@@ -62,8 +62,8 @@ const Welcome = () => {
             </TouchableOpacity>
           )}  
           keyExtractor={item => item}
-          contentContainerStyle={{columnGap:SIZES.small}}
-          horizontal
+          contentContainerStyle={{columnGap:SIZES.small}}   //prop incharge of styling the Flatlist container
+          horizontal    //makes elements in d flatlist to be horizontal
         />
       </View>
 
